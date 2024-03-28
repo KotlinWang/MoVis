@@ -17,7 +17,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## Results
 
-<img src="./assets/results.jpg" alt="overview" style="zoom: 5%;" />
+<img src="./assets/results.jpg" height="480px" width="585px" />
 
 ## Installation
 
