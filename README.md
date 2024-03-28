@@ -17,5 +17,40 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## Results
 
-<img src="./assets/results.jpg" alt="overview" style="zoom:33%;" />
+<img src="./assets/results.jpg" alt="overview" style="zoom: 10%;" />
 
+## Installation
+
+1. Clone this project and create a conda environment:
+
+   ```
+   git clone https://github.com/KotlinWang/MoVis.git
+   cd MoVis
+   
+   conda create -n movis python=3.8
+   conda activate movis
+   ```
+
+2. Install pytorch and torchvision matching your CUDA version:
+
+   ```
+   conda install pytorch torchvision cudatoolkit
+   # We adopt torch 1.9.0+cu111
+   ```
+
+3. Install requirements and compile the deformable attention:
+
+   ```
+   pip install -r requirements.txt
+   
+   cd lib/models/monodetr/ops/
+   bash make.sh
+   
+   cd ../../../..
+   ```
+
+4. Make dictionary for saving training losses:
+
+   ```
+   mkdir logs
+   ```
