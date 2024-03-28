@@ -93,7 +93,7 @@ bash test.sh configs/movis.yaml checkpoint_best
 
 ## Related Projects
 
-Our code is based on [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR) and [Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR).
+Our code is based on [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR) and [RT-DETR](https://github.com/lyuwenyu/RT-DETR).
 
 ## Citation
 
