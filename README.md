@@ -4,7 +4,7 @@
 Using KITTI tracking dataset to visualize MoVis detection results:
 
 <div align="center">
-   ![demo](./assets/visualize.gif)
+   <img src="./assets/visualize.gif" height="100%" width="100%" />
 </div>
 
 More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uTuUwVgAZH81JWi0q_8Cav6q7HOom/view?usp=drive_link)
