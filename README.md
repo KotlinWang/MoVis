@@ -23,7 +23,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 1. Clone this project and create a conda environment:
 
-   ```
+   ```shell
    git clone https://github.com/KotlinWang/MoVis.git
    cd MoVis
    
@@ -33,17 +33,17 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 2. Install pytorch and torchvision matching your CUDA version:
 
-   ```
+   ```shell
    conda install pytorch torchvision cudatoolkit
    # We adopt torch 1.9.0+cu111
    ```
 
 3. Install requirements and compile the deformable attention:
 
-   ```
+   ```shell
    pip install -r requirements.txt
    
-   cd lib/models/monodetr/ops/
+   cd lib/models/movis/ops/
    bash make.sh
    
    cd ../../../..
@@ -51,7 +51,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 4. Make dictionary for saving training losses:
 
-   ```
+   ```shell
    mkdir logs
    ```
 
@@ -79,7 +79,7 @@ Download [Rope3D](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_bench
 
 You can modify the settings of models and training in `configs/movis.yaml` and indicate the GPU in `train.sh`:
 
-```
+```shell
 bash train.sh configs/movis.yaml movis
 ```
 
@@ -87,7 +87,7 @@ bash train.sh configs/movis.yaml movis
 
 The best checkpoint will be evaluated as default. You can change it at "tester/checkpoint" in `configs/movis.yaml`:
 
-```
+```shell
 bash test.sh configs/movis.yaml checkpoint_best
 ```
 
