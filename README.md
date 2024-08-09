@@ -3,7 +3,9 @@
 ## Demo
 Using KITTI tracking dataset to visualize MoVis detection results:
 
-![demo](./assets/visualize.gif)
+<div align="center">
+   <img src="./assets/visualize.gif" height="100%" width="100%" />
+</div>
 
 More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uTuUwVgAZH81JWi0q_8Cav6q7HOom/view?usp=drive_link)
 
@@ -17,7 +19,9 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## Results
 
-<img src="./assets/results.jpg" height="480px" width="585px" />
+<div align="center">
+   <img src="./assets/results.jpg" height="60%" width="60%" />
+</div>
 
 ## Installation
 
@@ -93,8 +97,10 @@ bash test.sh configs/movis.yaml checkpoint_best
 
 ## Related Projects
 
-Our code is based on [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR) and [Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR).
+Our code is based on [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR) and [RT-DETR](https://github.com/lyuwenyu/RT-DETR).
 
 ## Citation
 
 If you find this project helpful, please consider citing the following paper:
+```
+```
