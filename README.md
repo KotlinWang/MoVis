@@ -1,7 +1,4 @@
-# MoVis: When 3D Object Detection is Like Human Monocular Vision
-
-## Demo
-Using KITTI tracking dataset to visualize MoVis detection results:
+# Accurate Segmentation of Urban Spatial Structure: A Framework for Large-Scale Remote Sensing Images Using Feature State Sequences
 
 <div align="center">
    <img src="./assets/visualize.gif" height="100%" width="100%" />
@@ -9,23 +6,83 @@ Using KITTI tracking dataset to visualize MoVis detection results:
 
 More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uTuUwVgAZH81JWi0q_8Cav6q7HOom/view?usp=drive_link)
 
-## Overview
+## :newspaper:News
+
+- **[2024/9/4]** We uploaded an intermediate version of the MoVis code:smile:. 
+- **[2024/3/28]** MoVis Project Creation :sunglasses:. 
+
+## :star:Overview
 
 ![overview](./assets/overview.jpg)
+- MoVis is designed based on the way human monocular vision perceives 3D objects. Spatial Relation Encoder (SRE) aims to decouple the interaction between features. Object-level depth modulator (ODM) obtains high-precision depth information by color sequence. The spatial Context Processor (SCP) decodes the different features.
+- Extensive experiments on KITTI and Rope3D demonstrate the state-of-the-art performance of our MoVis.
 
-- MoVis was designed based on the way human monocular vision perceives depth information of objects. Spatial Relation Encoding (SRE) aims to decouple the interaction between features. Object-level depth modulator (ODM) obtains high-precision depth information by color sequence. The spatial Context Processor (SCP) decodes the different features.
+##  :dart:Model Zoo
 
-- Extensive experiments on KITTI and Rope3D demonstrate the state of the art (**SOTA**) performance of our MoVis.
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Method</th>
+      <th colspan="3">AP<sub>3D</sub></th>
+      <th colspan="3">AP<sub>BEV</sub></th>
+        <th rowspan="2">Download</th>
+    </tr>
+    <tr>
+      <th>Easy</th>
+      <th>Mod.</th>
+      <th>Hard</th>
+      <th>Easy</th>
+      <th>Mod.</th>
+      <th>Hard</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">MoVis</td>
+      <td>28.46</td>
+      <td>20.77</td>
+      <td>17.70</td>
+      <td>37.52</td>
+      <td>27.70</td>
+      <td>23.34</td>
+      <td><a href="https://github.com/KotlinWang/UrbanSSF" target="_blank">model</a></td>
+    </tr>
+    <tr>
+      <td>28.51</td>
+      <td>20.77</td>
+      <td>17.65</td>
+      <td>37.84</td>
+      <td>27.04</td>
+      <td>23.32</td>
+      <td><a href="https://drive.google.com/file/d/1aXX1WAE9MWdVDsulaGkY81wXCFv21td4/view?usp=drive_link" target="_blank">model</a></td>
+    </tr>
+    <tr>
+      <td>28.33</td>
+      <td>20.75</td>
+      <td>17.58</td>
+      <td>37.03</td>
+      <td>26.77</td>
+      <td>23.01</td>
+      <td><a href="https://drive.google.com/file/d/1kHmy6vDJG60zDN9b1bgXz1IRMGR1YNUW/view?usp=drive_link" target="_blank">model</a></td>
+    </tr>
+  </tbody>
+</table>
 
-## Results
+
+
+
+## :see_no_evil:Results
 
 <div align="center">
    <img src="./assets/results.jpg" height="60%" width="60%" />
 </div>
 
-## Installation
 
-1. Clone this project and create a conda environment:
+## :computer:Installation
+
+<details open>
+
+**Step 1**: Clone this project and create a conda environment:
 
    ```shell
    git clone https://github.com/KotlinWang/MoVis.git
@@ -35,14 +92,14 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
    conda activate movis
    ```
 
-2. Install pytorch and torchvision matching your CUDA version:
+**Step 2**: Install pytorch and torchvision matching your CUDA version:
 
    ```shell
    conda install pytorch torchvision cudatoolkit
    # We adopt torch 1.9.0+cu111
    ```
 
-3. Install requirements and compile the deformable attention:
+**Step 3**: Install requirements and compile the deformable attention:
 
    ```shell
    pip install -r requirements.txt
@@ -53,14 +110,16 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
    cd ../../../..
    ```
 
-4. Make dictionary for saving training losses:
+**Step 4**: Make dictionary for saving training losses:
 
    ```shell
    mkdir logs
    ```
+</details>
 
-## Preparing Dataset
+## :satellite:Preparing Dataset
 
+<details open>
 Download [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) datasets and prepare the directory structure as:
 
 ```
@@ -77,7 +136,9 @@ You can also change the data path at "dataset/root_dir" in `configs/movis.yaml`.
 
 Download [Rope3D](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) datasets and convert it to KITTI format via [DAIR-V2X](https://github.com/destinyls/DAIR-V2X).
 
-## Run
+</details>
+
+## :running: Run
 
 ### Train
 
@@ -95,12 +156,14 @@ The best checkpoint will be evaluated as default. You can change it at "tester/c
 bash test.sh configs/movis.yaml checkpoint_best
 ```
 
-## Related Projects
+## :mag: Related Projects
 
 Our code is based on [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR) and [RT-DETR](https://github.com/lyuwenyu/RT-DETR).
 
 ## Citation
 
-If you find this project helpful, please consider citing the following paper:
+If you find this project useful in your research, please consider citing：
+
 ```
 ```
+
