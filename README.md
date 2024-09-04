@@ -23,8 +23,8 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
   <thead>
     <tr>
       <th rowspan="2">Method</th>
-      <th colspan="3">AP<sub>3D</sub></th>
-      <th colspan="3">AP<sub>BEV</sub></th>
+      <th colspan="3">AP<sub>3D|R40|IoU>0.7</sub></th>
+      <th colspan="3">AP<sub>BEV|R40|IoU>0.7</sub></th>
         <th rowspan="2">Download</th>
     </tr>
     <tr>
@@ -45,7 +45,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
       <td>37.52</td>
       <td>27.70</td>
       <td>23.34</td>
-      <td><a href="https://github.com/KotlinWang/UrbanSSF" target="_blank">model</a></td>
+      <td><a href="https://drive.google.com/file/d/1bhbX8rY3kKZpAoW7fT9GKyCWQH19Wk8p/view?usp=drive_link" target="_blank">model</a></td>
     </tr>
     <tr>
       <td>28.51</td>
