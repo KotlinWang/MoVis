@@ -1,4 +1,4 @@
-# Accurate Segmentation of Urban Spatial Structure: A Framework for Large-Scale Remote Sensing Images Using Feature State Sequences
+# MoVis: When 3D Object Detection is Like Human Monocular Vision
 
 <div align="center">
    <img src="./assets/visualize.gif" height="100%" width="100%" />
