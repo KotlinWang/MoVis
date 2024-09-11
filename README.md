@@ -8,7 +8,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## :newspaper:News
 
-- **[2024/9/4]** We uploaded an intermediate version of the MoVis code:smile:. 
+- **[2024/9/4]** We uploaded an intermediate version of the MoVis code :smile:. 
 - **[2024/3/28]** MoVis Project Creation :sunglasses:. 
 
 ## :star:Overview
@@ -120,6 +120,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 ## :satellite:Preparing Dataset
 
 <details open>
+
 Download [KITTI](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) datasets and prepare the directory structure as:
 
 ```
