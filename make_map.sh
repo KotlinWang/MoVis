@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=5 python hotmap.py --config $1 --checkpoint_name $2 -e
