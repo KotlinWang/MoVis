@@ -8,7 +8,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## :newspaper:News
 
-- **[2024/11/12]** We updated the [PyTorch 2.5.1](https://pytorch.org/) environment with the latest cuda release and uploaded the full MoVis code. 
+- **[2024/11/12]** We updated the [PyTorch 2.5.1](https://pytorch.org/) environment with the latest cuda release and uploaded the full MoVis code :rocket: .
 - **[2024/9/4]** We uploaded an intermediate version of the MoVis code :smile:. 
 - **[2024/3/28]** MoVis Project Creation :sunglasses:. 
 
