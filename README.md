@@ -14,7 +14,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## :star:Overview
 
-![overview](./assets/)
+![overview](./assets/overview.jpg)
 - MoVis is designed based on the way human monocular vision perceives 3D objects. Spatial Relation Encoder (SRE) aims to decouple the interaction between features. Object-level depth modulator (ODM) obtains high-precision depth information by color sequence. The spatial Context Processor (SCP) decodes the different features.
 - Extensive experiments on KITTI and Rope3D demonstrate the state-of-the-art performance of our MoVis.
 
