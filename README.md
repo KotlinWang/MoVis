@@ -8,6 +8,7 @@ More demo videos can be downloaded [here](https://drive.google.com/file/d/1a45uT
 
 ## :newspaper:News
 
+- **[2025/2/20]** Our article ([*MoVis: When 3D Object Detection is Like Human Monocular Vision*](https://ieeexplore.ieee.org/document/10916602)) was successfully accepted by IEEE Transactions on Image Processing!!!  :tada: :tada: :tada: 
 - **[2024/11/12]** We updated the [PyTorch 2.5.1](https://pytorch.org/) environment with the latest cuda release and uploaded the full MoVis code :rocket: .
 - **[2024/9/4]** We uploaded an intermediate version of the MoVis code :smile:. 
 - **[2024/3/28]** MoVis Project Creation :sunglasses:. 
