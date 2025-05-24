@@ -169,5 +169,15 @@ Our code is based on [MonoDETR](https://github.com/ZrrSkywalker/MonoDETR) and [R
 If you find this project useful in your research, please consider citing：
 
 ```
+@ARTICLE{10916602,
+  author={Wang, Zijie and Yi, Jizheng and Chen, Aibin and Han, Guangjie},
+  journal={IEEE Transactions on Image Processing}, 
+  title={MoVis: When 3D Object Detection Is Like Human Monocular Vision}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={3025-3040},
+  keywords={Three-dimensional displays;Object detection;Image color analysis;Depth measurement;Feature extraction;Transformers;Training;Modulation;Detectors;Data mining;3D object detection;monocular image;human monocular vision;autonomous driving},
+  doi={10.1109/TIP.2025.3544880}}
 ```
 
